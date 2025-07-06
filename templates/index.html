@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Video to Course Generator</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 2rem; max-width: 800px; }
+  label, input, select, button { font-size: 1rem; margin: 0.5rem 0; width: 100%; }
+  button { padding: 0.5rem; }
+  .loading { font-weight: bold; margin-top: 1rem; }
+  .lesson, .quiz-question { margin-bottom: 1.5rem; border-bottom: 1px solid #ccc; padding-bottom: 1rem; }
+  img.extracted-image { max-width: 100%; margin: 0.5rem 0; border: 1px solid #ddd; }
+</style>
+</head>
+<body>
+
+<h1>Video to Course Generator</h1>
+
+<label for="video_url">YouTube Video URL:</label>
+<input type="url" id="video_url" placeholder="Enter YouTube video URL" required />
+
+<label for="language">Language:</label>
+<select id="language">
+  <option value="en" selected>English</option>
+  <option value="ar">Arabic</option>
+  <!-- Add more languages if you want -->
+</select>
+
+<button id="generate_btn">Generate Course</button>
+
+<div id="status" class="loading" style="display:none;">Processing...</div>
+
+<div id="output" style="margin-top:2rem;"></div>
+
+<script>
+const btn = document.getElementById('generate_btn');
+const statusDiv = document.getElementById('status');
+const outputDiv = document.getElementById('output');
+
+btn.addEventListener('click', async () => {
+  const url = document.getElementById('video_url').value.trim();
+  const lang = document.getElementById('language').value;
+
+  if (!url) {
+    alert("Please enter a valid YouTube video URL.");
+    return;
+  }
+
+  statusDiv.style.display = 'block';
+  statusDiv.textContent = "Processing... This may take a while.";
+
+  outputDiv.innerHTML = "";
+
+  try {
+    const response = await fetch('/generate', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ video_url: url, language: lang })
+    });
+
+    const data = await response.json();
+
+    statusDiv.style.display = 'none';
+
+    if (data.error) {
+      outputDiv.innerHTML = `<p style="color:red;">Error: ${data.error}</p>`;
+      return;
+    }
+
+    // Display lessons
+    if (data.lessons && data.lessons.length > 0) {
+      let lessonsHtml = '<h2>Lessons</h2>';
+      data.lessons.forEach((lesson, i) => {
+        lessonsHtml += `<div class="lesson">
+          <h3>${i+1}. ${lesson.title}</h3>
+          <p>${lesson.details}</p>
+          <p><em>Motivational message: ${lesson.motivational_message}</em></p>
+        </div>`;
+      });
+      outputDiv.innerHTML += lessonsHtml;
+    }
+
+    // Display quiz
+    if (data.quiz && data.quiz.length > 0) {
+      let quizHtml = '<h2>Quiz</h2>';
+      data.quiz.forEach((q, i) => {
+        quizHtml += `<div class="quiz-question">
+          <p><strong>Q${i+1}: ${q.question}</strong></p>`;
+        if (q.choices) {
+          quizHtml += '<ul>';
+          q.choices.forEach(c => {
+            quizHtml += `<li>${c}</li>`;
+          });
+          quizHtml += '</ul>';
+        }
+        quizHtml += `<p><strong>Answer:</strong> ${q.answer}</p></div>`;
+      });
+      outputDiv.innerHTML += quizHtml;
+    }
+
+    // Display extracted images
+    if (data.extracted_images_base64 && data.extracted_images_base64.length > 0) {
+      let imagesHtml = '<h2>Extracted Images from Video Frames</h2>';
+      data.extracted_images_base64.forEach((b64, i) => {
+        imagesHtml += `<img class="extracted-image" src="data:image/png;base64,${b64}" alt="Extracted Frame ${i+1}"/>`;
+      });
+      outputDiv.innerHTML += imagesHtml;
+    }
+
+  } catch (err) {
+    statusDiv.style.display = 'none';
+    outputDiv.innerHTML = `<p style="color:red;">Unexpected error: ${err.message}</p>`;
+  }
+});
+</script>
+
+</body>
+</html>
