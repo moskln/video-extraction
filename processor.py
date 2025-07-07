@@ -1,5 +1,7 @@
+# processor.py
 import os
 import tempfile
+from fpdf import FPDF
 import cv2
 import pytesseract
 from PIL import Image
@@ -12,9 +14,10 @@ import threading
 import base64
 import io
 import textwrap
-from fpdf import FPDF
 from generator import generate_course_content
 from structured_extractor.detector import detect_structured_data
+from structured_extractor.explainer import explain_structured_data
+from structured_extractor.visual_report import generate_visual_report
 
 def preprocess_image(pil_img):
     # Convert to grayscale and binarize for better OCR
@@ -188,32 +191,38 @@ def combined_process(video_url, language="en"):
             t.join()
 
         structured_outputs = []
+        explanations = []
+        tags_per_frame = []
+
         for img_path in images:
             structured_data = detect_structured_data(img_path)
             structured_outputs.append(structured_data)
-            
-        # ✅ Step 6.5: Save structured data to file
+            explanations.append(explain_structured_data(structured_data))
+
+            tags = list(structured_data.get("grouped_wrapped_texts", {}).keys())
+            tags_per_frame.append({"frame": os.path.basename(img_path), "tags": tags})
+
+        # ✅ Save explanations + tags
         os.makedirs("static", exist_ok=True)
+        with open("static/frame_explanations.txt", "w", encoding="utf-8") as f:
+            f.write("\n\n---\n\n".join(explanations))
+
         with open("static/structured_data.json", "w", encoding="utf-8") as f:
             json.dump(structured_outputs, f, ensure_ascii=False, indent=2)
-            
-        # Step 6: Combine transcript and OCR results
+
+        # ✅ Generate Visual Report with images + explanations
+        generate_visual_report(images, explanations, output_pdf="static/visual_report.pdf")
+
+        # Step 6: Combine transcript and OCR
         ocr_texts = [txt for txt in ocr_results if txt and txt.strip()]
         save_ocr_text_to_pdf(ocr_texts, output_path="static/ocr_text.pdf")
-        combined_text = transcript + "\n\n" + "\n\n".join(ocr_texts)
 
-        # Step 7: Generate lessons and quiz
+        combined_text = transcript + "\n\n" + "\n\n".join(ocr_texts)
         course_data = generate_course_content(combined_text, language, video_duration_minutes=duration)
 
-        # Step 8: Attach base64 images to output so frontend can show them if needed
-        images_b64 = [image_to_base64(img) for img in images]
-
-        course_data["extracted_images_base64"] = images_b64
-
-        # Notes:
-        # - OCR quality depends heavily on screenshot quality and font used in video.
-        # - This process skips blank frames to reduce noise.
-        # - You can adjust frame interval logic for your needs.
-        # - Unlike PDF image extraction, video frames are images directly, so OCR is simpler here.
+        course_data["extracted_images_base64"] = [image_to_base64(img) for img in images]
+        course_data["frame_explanations"] = explanations
+        course_data["frame_tags"] = tags_per_frame
+        course_data["visual_report_pdf"] = "static/visual_report.pdf"
 
         return course_data

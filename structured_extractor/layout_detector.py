@@ -14,8 +14,10 @@ DEFAULT_CLASSES = {
     1: "chart",
     2: "table",
     3: "window",
-    4: "text_block"
+    4: "text_block",
+    5: "diagram"
 }
+
 
 def detect_layout_regions(image_path, class_filter=None, conf_threshold=0.4):
     if not os.path.exists(image_path):

@@ -1,884 +1,1709 @@
 [
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_0.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "0|0 ببنبيه 145",
-    "cleaned_text": "0|0 ببنبيه 145",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "0|0 ببنبيه 145",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_1.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "010 ببنيبج 145 ANDIUIABOUT IO",
-    "cleaned_text": "010 ببنيبج 145 ANDIUIABOUT IO",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "010 ببنيبج 145 ANDIUIABOUT IO",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_2.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "00 بليج 145 IA3CALGULUS ٢4 Calculus 4 -ل =()1{8-(4)73c ٧2 = A 4=،»4-،,7-7 هتنا ق44[; 6+,1(<+4)) [ ٤] دها  وا م كا ما -ءت ٧٠ ١» ٥٧ {٠ 4٠٣ 16 0078 < [}4٠f0",
-    "cleaned_text": "00 بليج 145 IA3CALGULUS ٢4 Calculus 4 -ل =()1{8-(4)73c ٧2 = A 4=،4-،,7-7 هتنا ق44[ 6+,1(<+4)) [ ٤] دها وا م كا ما -ءت ٧٠ ١ ٥٧ {٠ 4٠٣ 16 0078 < [}4٠f0",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "00 بليج 145 IA3CALGULUS ٢4 Calculus 4 -ل =()1{8-(4)73c ٧2 = A 4=،4-،,7-7 هتنا ق44[ 6+,1(<+4)) [ ٤]\nدها وا م كا ما -ءت ٧٠ ١ ٥٧ {٠ 4٠٣ 16 0078 < [}4٠f0",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_3.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_0.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "٥HBBROHGH",
-    "cleaned_text": "٥HBBROHGH",
+    "raw_text": "_ vedrs",
+    "cleaned_text": "_ vedrs",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "٥HBBROHGH",
+          "text": "_ vedrs",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_4.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_1.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "SeHOOL 0FSG3S3",
-    "cleaned_text": "SeHOOL 0FSG3S3",
+    "raw_text": "_ vedrs",
+    "cleaned_text": "_ vedrs",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "SeHOOL 0FSG3S3",
+          "text": "_ vedrs",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_5.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "5010 علم =43 0? 3٧ ICOMBONNG A",
-    "cleaned_text": "5010 علم =43 0? 3٧ ICOMBONNG A",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "5010 علم =43 0? 3٧ ICOMBONNG A",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_6.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7051 ل 44 07 CALSUSEOOK",
-    "cleaned_text": "7051 ل 44 07 CALSUSEOOK",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7051 ل 44 07 CALSUSEOOK",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_7.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7010 ملن =43 04 5 ANDFORIOSE",
-    "cleaned_text": "7010 ملن =43 04 5 ANDFORIOSE",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7010 ملن =43 04 5 ANDFORIOSE",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_8.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "0^0/0 لملب 44٤ 07 DOIIZOW",
-    "cleaned_text": "00/0 لملب 44٤ 07 DOIIZOW",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "00/0 لملب 44٤ 07 DOIIZOW",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_9.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_11.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "UAILMB A5va ؟١ T 5H45= 7 07 H5 IOCOFROILS 0\"=1 0=0 10^5 ,٥x٠C 0/ ٧X 0 /٠1=0 Jx 2358\"9( xال ٧ ٨٠,- 03٧ ((S1u$}7 0٥7&L٠01 & ٠0 (xx١( x١ (0)'  formutas ALGEBRA '206٠ .(@+6)=0 }13,213155 0' 0'=|4 -()|4+6)",
-    "cleaned_text": "UAILMB A5va ؟١ T 5H45= 7 07 H5 IOCOFROILS 0\"=1 0=0 105 ,٥x٠C 0/ ٧X 0 /٠1=0 Jx 2358\"9( xال ٧ ٨٠,- 03٧ ((S1u$}7 0٥7&L٠01 & ٠0 (xx١( x١ (0)' formutas ALGEBRA '206٠ .(@+6)=0 }13,213155 0' 0'=|4 -()|4+6)",
+    "raw_text": "LBRY",
+    "cleaned_text": "LBRY",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "UAILMB A5va ؟١ T 5H45= 7 07 H5 IOCOFROILS 0\"=1 0=0 105 ,٥x٠C 0/ ٧X 0 /٠1=0 Jx 2358\"9( xال ٧ ٨٠,- 03٧\n((S1u$}7 0٥7&L٠01 & ٠0 (xx١( x١ (0)' formutas ALGEBRA '206٠ .(@+6)=0 }13,213155 0' 0'=|4 -()|4+6)",
+          "text": "LBRY",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_10.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_12.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "٧ ISAغانV",
-    "cleaned_text": "٧ ISAغانV",
+    "raw_text": "LBRY",
+    "cleaned_text": "LBRY",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "٧ ISAغانV",
+          "text": "LBRY",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_11.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_13.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "83933JD",
-    "cleaned_text": "83933JD",
+    "raw_text": "LBRY",
+    "cleaned_text": "LBRY",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "83933JD",
+          "text": "LBRY",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_12.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_15.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "٨٧ ٧٩ ٤ IHANGOBFO",
-    "cleaned_text": "٨٧ ٧٩ ٤ IHANGOBFO",
+    "raw_text": "",
+    "cleaned_text": "",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "٨٧ ٧٩ ٤ IHANGOBFO",
+          "text": "",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_13.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_16.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "؟، 1093 ARIIHBIS )٦ ( ٩ |3 ٥ 5 ؟ +> - |8 5X+٦=0 8/ 3٠  ٥ z٠٥7 39 3 6  ١،6X١0 X 5X ،=0 3",
-    "cleaned_text": "؟، 1093 ARIIHBIS )٦ ( ٩ |3 ٥ 5 ؟ +> - |8 5X+٦=0 8/ 3٠ ٥ z٠٥7 39 3 6 ١،6X١0 X 5X ،=0 3",
+    "raw_text": "it sounds fuke",
+    "cleaned_text": "it sounds fuke",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "؟، 1093 ARIIHBIS )٦ ( ٩ |3 ٥ 5 ؟ +> - |8 5X+٦=0 8/ 3٠ ٥ z٠٥7 39 3 6 ١،6X١0 X 5X ،=0 3",
+          "text": "it sounds fuke",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_14.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_17.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "٧ ٥ ٤ 1OALGشق  ؟٥٧٠ ٠٥ 124fi5 > ] 33 M 1 7٠ 1٥ ٧٤؟٤ 300-",
-    "cleaned_text": "٧ ٥ ٤ 1OALGشق ؟٥٧٠ ٠٥ 124fi5 > ] 33 M 1 7٠ 1٥ ٧٤؟٤ 300-",
+    "raw_text": "it sounds fuke",
+    "cleaned_text": "it sounds fuke",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "٧ ٥ ٤ 1OALGشق ؟٥٧٠ ٠٥ 124fi5 > ] 33 M 1 7٠ 1٥ ٧٤؟٤ 300-",
+          "text": "it sounds fuke",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_15.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_21.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "CLSUS",
-    "cleaned_text": "CLSUS",
+    "raw_text": "Uelcome to +",
+    "cleaned_text": "Uelcome to +",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "CLSUS",
+          "text": "Uelcome to +",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_16.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_22.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "٦ BOOANDVOU",
-    "cleaned_text": "٦ BOOANDVOU",
+    "raw_text": "Uelcome to the Most Expensive 9 Mlinutes 0f",
+    "cleaned_text": "Uelcome to the Most Expensive 9 Mlinutes 0f",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "٦ BOOANDVOU",
+          "text": "Uelcome to the Most Expensive 9 Mlinutes 0f",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_17.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_23.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "، 4 OPUP IB٥G",
-    "cleaned_text": "، 4 OPUP IB٥G",
+    "raw_text": "Uelcome to the Most Expensive 9 Mlinutes of Your Life",
+    "cleaned_text": "Uelcome to the Most Expensive 9 Mlinutes of Your Life",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "، 4 OPUP IB٥G",
+          "text": "Uelcome to the Most Expensive 9 Mlinutes of Your Life",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_18.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_27.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "77  0 ٥٧ 570 ٥5 ٨٠K (t=cor >) ع32 P'٩' 5:2' (n+1) > »c'-P(x'-P)(x=K' > $١N خ 3[ S!٨': 31 C0 ٧، 4'% ٦ ٧، ٥ ٤ ٤٣ 511 ن/ lv 50(05 1 71 2`(3+1)1' 9 5 3٧٦+»٠٥-t 065 4 1 }د ٥ ٢١٨ آ21 }٠٧ 3٠2+ه xR 21 x 3 0: SIn AND H٤SEآكظ X K٤٥ [9,1,1 K 0:0 بد0 سكده - ال n( 7 1+12c 7 ٦٠ 1 ]c:+?(-1)=@px ٥٢ ( t+٢١n 2٤ 7u 57 ) K٠٦، ٠ ٥ ?7'م",
-    "cleaned_text": "77 0 ٥٧ 570 ٥5 ٨٠K (t=cor >) ع32 P'٩' 5:2' (n+1) > c'-P(x'-P)(x=K' > $١N خ 3[ S!٨': 31 C0 ٧، 4'% ٦ ٧، ٥ ٤ ٤٣ 511 ن/ lv 50(05 1 71 2(3+1)1' 9 5 3٧٦+٠٥-t 065 4 1 }د ٥ ٢١٨ آ21 }٠٧ 3٠2+ه xR 21 x 3 0: SIn AND H٤SEآكظ X K٤٥ [9,1,1 K 0:0 بد0 سكده - ال n( 7 1+12c 7 ٦٠ 1 ]c:+?(-1)=@px ٥٢ ( t+٢١n 2٤ 7u 57 ) K٠٦، ٠ ٥ ?7'م",
+    "raw_text": "٠٤٦R٢٤ر٠ ٤ HINUTذ٤",
+    "cleaned_text": "٠٤٦R٢٤ر٠ ٤ HINUTذ٤",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "77 0 ٥٧ 570 ٥5 ٨٠K (t=cor >) ع32 P'٩' 5:2' (n+1) > c'-P(x'-P)(x=K' > $١N خ 3[ S!٨': 31 C0 ٧، 4'% ٦\n٧، ٥ ٤ ٤٣ 511 ن/ lv 50(05 1 71 2(3+1)1' 9 5 3٧٦+٠٥-t 065 4 1 }د ٥ ٢١٨ آ21 }٠٧ 3٠2+ه xR 21 x 3 0: SIn\nAND H٤SEآكظ X K٤٥ [9,1,1 K 0:0 بد0 سكده - ال n( 7 1+12c 7 ٦٠ 1 ]c:+?(-1)=@px ٥٢ ( t+٢١n 2٤ 7u 57 )\nK٠٦، ٠ ٥ ?7'م",
+          "text": "٠٤٦R٢٤ر٠ ٤ HINUTذ٤",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_19.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "٥ ٠ x 570 ٥5 4:٦ (t: cof 2) 22 C05 جا + ا  ٧-5 5:2' (n+٦) ٧٤1 2 »c-P(x`P)(X=K')٤٠ L ٨ ،0 (٨ ٧، 3& د ٧3 ه'4 ٦t 77٤ 5/1 Cinv 1+3 ;(0) 91 ~`(3+1)1' 00'`+ ٥٥٢ 4 8' 9 ) 4+3: 2' ٥ ٢١٨ ٧R 115 0؟ 0' 0:1 Sاn ٧٠ 10? SOUIGGLVLIN3S٨ف K٤٥ [%,1 P+، ا S٨ii 00 تقه -ال 180  * ه »(  1+1 1 1٠7 1-1.6 ىل ( t+2 ١؟) 0 ٥رك ٧٠ ٠ .0? = سا آ?'ح -1١=e>",
-    "cleaned_text": "٥ ٠ x 570 ٥5 4:٦ (t: cof 2) 22 C05 جا + ا ٧-5 5:2' (n+٦) ٧٤1 2 c-P(xP)(X=K')٤٠ L ٨ ،0 (٨ ٧، 3& د ٧3 ه'4 ٦t 77٤ 5/1 Cinv 1+3 (0) 91 (3+1)1' 00'+ ٥٥٢ 4 8' 9 ) 4+3: 2' ٥ ٢١٨ ٧R 115 0؟ 0' 0:1 Sاn ٧٠ 10? SOUIGGLVLIN3S٨ف K٤٥ [%,1 P+، ا S٨ii 00 تقه -ال 180 * ه ( 1+1 1 1٠7 1-1.6 ىل ( t+2 ١؟) 0 ٥رك ٧٠ ٠ .0? = سا آ?'ح -1١=e>",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "٥ ٠ x 570 ٥5 4:٦ (t: cof 2) 22 C05 جا + ا ٧-5 5:2' (n+٦) ٧٤1 2 c-P(xP)(X=K')٤٠ L ٨ ،0 (٨ ٧، 3& د ٧3\nه'4 ٦t 77٤ 5/1 Cinv 1+3 (0) 91 (3+1)1' 00'+ ٥٥٢ 4 8' 9 ) 4+3: 2' ٥ ٢١٨ ٧R 115 0؟ 0' 0:1 Sاn ٧٠ 10?\nSOUIGGLVLIN3S٨ف K٤٥ [%,1 P+، ا S٨ii 00 تقه -ال 180 * ه ( 1+1 1 1٠7 1-1.6 ىل ( t+2 ١؟) 0 ٥رك ٧٠ ٠ .0?\n= سا آ?'ح -1١=e>",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_20.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_28.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "50 ٥5 ٥:1 تاا !0$ 2) 32 C0؟ ٦٩ب> جا + ا 2' (n+٦) ٧-5 ٥ + ،٥؛٦ ٧٤1 P(x}P)(x=k')> hPx1 =0 70 7< ٥$ 6R ٧ 3+[ ٧: 0 > 7 ٥، n1ر5 lmv 113 '(3+1)1' ما 1٠ ٥٤» ) 8 19 د T٨٨4 11 0: 1 SIn & 7 5- K:^4?`:^|?' 0 GREELقI٤R5 ء٧ *E?[o,1,1 ( : P+،` K Si C05( ac٦ 5 ٥ أل dع »(  1 ? ٠7 1-1 6 > ىل ( t+٢in 2) 0 8 ٧nك له 2'?",
-    "cleaned_text": "50 ٥5 ٥:1 تاا !0$ 2) 32 C0؟ ٦٩ب> جا + ا 2' (n+٦) ٧-5 ٥ + ،٥؛٦ ٧٤1 P(x}P)(x=k')> hPx1 =0 70 7< ٥$ 6R ٧ 3+[ ٧: 0 > 7 ٥، n1ر5 lmv 113 '(3+1)1' ما 1٠ ٥٤ ) 8 19 د T٨٨4 11 0: 1 SIn & 7 5- K:4?:|?' 0 GREELقI٤R5 ء٧ *E?[o,1,1 ( : P+، K Si C05( ac٦ 5 ٥ أل dع ( 1 ? ٠7 1-1 6 > ىل ( t+٢in 2) 0 8 ٧nك له 2'?",
+    "raw_text": "٠٤٦R ٠٢٤ HINUTذ٤",
+    "cleaned_text": "٠٤٦R ٠٢٤ HINUTذ٤",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "50 ٥5 ٥:1 تاا !0$ 2) 32 C0؟ ٦٩ب> جا + ا 2' (n+٦) ٧-5 ٥ + ،٥؛٦ ٧٤1 P(x}P)(x=k')> hPx1 =0 70 7< ٥$ 6R\n٧ 3+[ ٧: 0 > 7 ٥، n1ر5 lmv 113 '(3+1)1' ما 1٠ ٥٤ ) 8 19 د T٨٨4 11 0: 1 SIn & 7 5- K:4?:|?' 0\nGREELقI٤R5 ء٧ *E?[o,1,1 ( : P+، K Si C05( ac٦ 5 ٥ أل dع ( 1 ? ٠7 1-1 6 > ىل ( t+٢in 2) 0 8 ٧nك له\n2'?",
+          "text": "٠٤٦R ٠٢٤ HINUTذ٤",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_21.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "٥5 4:٦ تاك ء 32 ٦٩ب> جا + ا دم ا 4-5 1+٦) ٥ ٦ ٥ ؛٦ 7٤1 x=*)> hPx1 =0 ٥$ 34 > د :٧ ^3 ٥،٠ 5/r1 Aiv ~+31 113 1v (٠1)1 نا 0٢ 8'_9 آ11 $: 8 0:1 L0 7 5-3 C05 K:10?`:^[?` P >x ٤٤ HTWASLIKE I S٠&٠ 0,1 1 ق( R +P P+، ٥ ٨x؟^ = ٦ K Sri 205( :0 ه 4( ٠? ٦٠7 ٢ ئ,1-1 ( t٠in 2) 8 ?؛ 1dل له (3+:] 7aa 5 0' +?",
-    "cleaned_text": "٥5 4:٦ تاك ء 32 ٦٩ب> جا + ا دم ا 4-5 1+٦) ٥ ٦ ٥ ؛٦ 7٤1 x=*)> hPx1 =0 ٥$ 34 > د :٧ 3 ٥،٠ 5/r1 Aiv +31 113 1v (٠1)1 نا 0٢ 8'_9 آ11 $: 8 0:1 L0 7 5-3 C05 K:10?:[? P >x ٤٤ HTWASLIKE I S٠&٠ 0,1 1 ق( R +P P+، ٥ ٨x؟ = ٦ K Sri 205( :0 ه 4( ٠? ٦٠7 ٢ ئ,1-1 ( t٠in 2) 8 ?؛ 1dل له (3+:] 7aa 5 0' +?",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "٥5 4:٦ تاك ء 32 ٦٩ب> جا + ا دم ا 4-5 1+٦) ٥ ٦ ٥ ؛٦ 7٤1 x=*)> hPx1 =0 ٥$ 34 > د :٧ 3 ٥،٠ 5/r1 Aiv +31\n113 1v (٠1)1 نا 0٢ 8'_9 آ11 $: 8 0:1 L0 7 5-3 C05 K:10?:[? P >x ٤٤ HTWASLIKE I S٠&٠ 0,1 1 ق( R +P\nP+، ٥ ٨x؟ = ٦ K Sri 205( :0 ه 4( ٠? ٦٠7 ٢ ئ,1-1 ( t٠in 2) 8 ?؛ 1dل له (3+:] 7aa 5 0' +?",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_22.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "م  5 3٥حN ثا",
-    "cleaned_text": "م 5 3٥حN ثا",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "م 5 3٥حN ثا",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_23.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7 95 7 ذ UNDRSIANDUS",
-    "cleaned_text": "7 95 7 ذ UNDRSIANDUS",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7 95 7 ذ UNDRSIANDUS",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_24.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_36.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "7 RIMBSشSIVING",
-    "cleaned_text": "7 RIMBSشSIVING",
+    "raw_text": "Vou re urong!",
+    "cleaned_text": "Vou re urong!",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "7 RIMBSشSIVING",
+          "text": "Vou re urong!",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_25.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_37.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "؟٧ 7 IHAJIOUSSF",
-    "cleaned_text": "؟٧ 7 IHAJIOUSSF",
+    "raw_text": "Vou re urong!",
+    "cleaned_text": "Vou re urong!",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "؟٧ 7 IHAJIOUSSF",
+          "text": "Vou re urong!",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_26.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_57.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "٦ر ٧٧LL N33?",
-    "cleaned_text": "٦ر ٧٧LL N33?",
+    "raw_text": "No toddlers doing cartuheels off the couch",
+    "cleaned_text": "No toddlers doing cartuheels off the couch",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "٦ر ٧٧LL N33?",
+          "text": "No toddlers doing cartuheels off the couch",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_27.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "ك٨ |DONآ",
-    "cleaned_text": "ك٨ |DONآ",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "ك٨ |DONآ",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_28.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_58.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "A لل |2 ٧ 5! `70=1 c01+11 ٢ < ٧ ٥١،؛ ٧ ٩٤،٥١ [1P ٢ IHRES NOJVN / ٧٠٧٠٦ ٥١ + ٦ » 1 3+x'-1+  ٦ )٧ز(؛ r٤٨",
-    "cleaned_text": "A لل |2 ٧ 5! 70=1 c01+11 ٢ < ٧ ٥١،؛ ٧ ٩٤،٥١ [1P ٢ IHRES NOJVN / ٧٠٧٠٦ ٥١ + ٦  1 3+x'-1+ ٦ )٧ز(؛ r٤٨",
+    "raw_text": "No toddlers doing cartuheels off the couch",
+    "cleaned_text": "No toddlers doing cartuheels off the couch",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "A لل |2 ٧ 5! 70=1 c01+11 ٢ < ٧ ٥١،؛ ٧ ٩٤،٥١ [1P ٢ IHRES NOJVN / ٧٠٧٠٦ ٥١ + ٦  1 3+x'-1+ ٦ )٧ز(؛ r٤٨",
+          "text": "No toddlers doing cartuheels off the couch",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_29.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_59.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "(٧+^) ٦ ^ ٥x +١٦٤١2 5 '| 3* +6*4@ ٥؟٤٠٨ 201+11 ٢ < م٩ [1P ١٢ AN BOUAL SlقN  0 0 ٧٥٦ ٧٤ 75_*0٦,5 ١، 1R٧ T ٥  2 1 - h [٦ +٧ #1~ -11",
-    "cleaned_text": "(٧+) ٦  ٥x +١٦٤١2 5 '| 3* +6*4@ ٥؟٤٠٨ 201+11 ٢ < م٩ [1P ١٢ AN BOUAL SlقN 0 0 ٧٥٦ ٧٤ 75_*0٦,5 ١، 1R٧ T ٥ 2 1 - h [٦ +٧ #1 -11",
+    "raw_text": "No toddlers doing cartuheels off the couch Just pure, uninterrupted",
+    "cleaned_text": "No toddlers doing cartuheels off the couch Just pure, uninterrupted",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "(٧+) ٦  ٥x +١٦٤١2 5 '| 3* +6*4@ ٥؟٤٠٨ 201+11 ٢ < م٩ [1P ١٢ AN BOUAL SlقN 0 0 ٧٥٦ ٧٤ 75_*0٦,5 ١، 1R٧\nT ٥ 2 1 - h [٦ +٧ #1 -11",
+          "text": "No toddlers doing cartuheels off the couch Just pure, uninterrupted",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_30.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_60.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "(٧+^) ٦^ - 6x +١٦٤١2 h71 3* +٦ ٦، ٦ ؟ S|w 41C1 '٥؟٤٠٨ ] 0 ]3 AND DON'T 3( ^ 7 ٥٦` 1 ٧٠ iR٧ T٤٤  #+'+i> @  ٦ ه  +٨ 7 }",
-    "cleaned_text": "(٧+) ٦ - 6x +١٦٤١2 h71 3* +٦ ٦، ٦ ؟ S|w 41C1 '٥؟٤٠٨ ] 0 ]3 AND DON'T 3(  7 ٥٦ 1 ٧٠ iR٧ T٤٤ #+'+i> @ ٦ ه +٨ 7 }",
+    "raw_text": "No toddlers doing cartuheels off the couch Just pure, laser-bedm uninterrupted focus",
+    "cleaned_text": "No toddlers doing cartuheels off the couch Just pure, laser-bedm uninterrupted focus",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "(٧+) ٦ - 6x +١٦٤١2 h71 3* +٦ ٦، ٦ ؟ S|w 41C1 '٥؟٤٠٨ ] 0 ]3 AND DON'T 3(  7 ٥٦ 1 ٧٠ iR٧ T٤٤ #+'+i> @\n٦ ه +٨ 7 }",
+          "text": "No toddlers doing cartuheels off the couch Just pure, laser-bedm uninterrupted focus",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_31.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "٦ ^'+2^b+ b' ٦٢٣ 21 7 6x 1 h7!   ٧ ٨/ كم 5|w 0 7 4(2,0) ٥؟؟ ؛٧ 5 ٥3 $607 AآH|5/$ 8 1-٧' 0x7 ٦ ^ ٥ ٦٢٢٠ 1 ٧،i ٤ ٥ @ C ٦٦٥٦٧ ؟ 1!ه",
-    "cleaned_text": "٦ '+2b+ b' ٦٢٣ 21 7 6x 1 h7! ٧ ٨/ كم 5|w 0 7 4(2,0) ٥؟؟ ؛٧ 5 ٥3 $607 AآH|5/$ 8 1-٧' 0x7 ٦  ٥ ٦٢٢٠ 1 ٧،i ٤ ٥ @ C ٦٦٥٦٧ ؟ 1!ه",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "٦ '+2b+ b' ٦٢٣ 21 7 6x 1 h7! ٧ ٨/ كم 5|w 0 7 4(2,0) ٥؟؟ ؛٧ 5 ٥3 $607 AآH|5/$ 8 1-٧' 0x7 ٦  ٥ ٦٢٢٠ 1\n٧،i ٤ ٥ @ C ٦٦٥٦٧ ؟ 1!ه",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_32.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "١٢٦ د (u+b» ^'+2^0+ b' 21 > 0 1 ٤= 7 <* 4 م ~40 ٨ 8C ^ 4(2 :ا +5 { ، $I0 + ٤ = BARE THESE كم S٧- ٠٠ ^x= | ٥ ٦٧ = ٥٤٤ ٦٦٥٦٧(٠ ٨ ٥ مور  2 ٨، ٦2٦r 1+20` ,٥) 53 7",
-    "cleaned_text": "١٢٦ د (u+b '+20+ b' 21 > 0 1 ٤= 7 <* 4 م 40 ٨ 8C  4(2 :ا +5 { ، $I0 + ٤ = BARE THESE كم S٧- ٠٠ x= | ٥ ٦٧ = ٥٤٤ ٦٦٥٦٧(٠ ٨ ٥ مور 2 ٨، ٦2٦r 1+20 ,٥) 53 7",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "١٢٦ د (u+b '+20+ b' 21 > 0 1 ٤= 7 <* 4 م 40 ٨ 8C  4(2 :ا +5 { ، $I0 + ٤ = BARE THESE كم S٧- ٠٠ x= |\n٥ ٦٧ = ٥٤٤ ٦٦٥٦٧(٠ ٨ ٥ مور 2 ٨، ٦2٦r 1+20 ,٥) 53 7",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_33.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "04٥/0  تللح =45 7 ٧ ANDUWS ٥٥٢",
-    "cleaned_text": "04٥/0 تللح =45 7 ٧ ANDUWS ٥٥٢",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "04٥/0 تللح =45 7 ٧ ANDUWS ٥٥٢",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_34.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7510 لبه =43 ١ ٧ ALLPGHLBI",
-    "cleaned_text": "7510 لبه =43 ١ ٧ ALLPGHLBI",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7510 لبه =43 ١ ٧ ALLPGHLBI",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_35.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7010  لل =45 ٨ MJUSIIf",
-    "cleaned_text": "7010 لل =45 ٨ MJUSIIf",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7010 لل =45 ٨ MJUSIIf",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_36.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7010 ر للب =4 ٧ S0 CBW33K",
-    "cleaned_text": "7010 ر للب =4 ٧ S0 CBW33K",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7010 ر للب =4 ٧ S0 CBW33K",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_37.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7010  للي =45 ٧ WOUDGOUY",
-    "cleaned_text": "7010 للي =45 ٧ WOUDGOUY",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7010 للي =45 ٧ WOUDGOUY",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_38.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "70010  تللب =43 ١ ANOIDUقK",
-    "cleaned_text": "70010 تللب =43 ١ ANOIDUقK",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "70010 تللب =43 ١ ANOIDUقK",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_39.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "70/0  لب =45 ١ ٧ ANDUIA",
-    "cleaned_text": "70/0 لب =45 ١ ٧ ANDUIA",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "70/0 لب =45 ١ ٧ ANDUIA",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_40.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "9٥٥/0  لمي =45 [ 7 AT IHOSSPAGS",
-    "cleaned_text": "9٥٥/0 لمي =45 [ 7 AT IHOSSPAGS",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "9٥٥/0 لمي =45 [ 7 AT IHOSSPAGS",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_41.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "٥٥/0  تل =45 ٧ OF OBD HEY",
-    "cleaned_text": "٥٥/0 تل =45 ٧ OF OBD HEY",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "٥٥/0 تل =45 ٧ OF OBD HEY",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_42.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7٥010  تللب 44 ٧",
-    "cleaned_text": "7٥010 تللب 44 ٧",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7٥010 تللب 44 ٧",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_43.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7٥/0  لملن 443 ١ KOAI",
-    "cleaned_text": "7٥/0 لملن 443 ١ KOAI",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7٥/0 لملن 443 ١ KOAI",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_44.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7010  للب = ١ THAUق OKAY",
-    "cleaned_text": "7010 للب = ١ THAUق OKAY",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7010 للب = ١ THAUق OKAY",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_45.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7010  لم =45 ١ FBUIOش",
-    "cleaned_text": "7010 لم =45 ١ FBUIOش",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7010 لم =45 ١ FBUIOش",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_46.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7010  م 44٤ ١ UقSSHEY",
-    "cleaned_text": "7010 م 44٤ ١ UقSSHEY",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7010 م 44٤ ١ UقSSHEY",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_47.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7010  لللى =45 ١",
-    "cleaned_text": "7010 لللى =45 ١",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7010 لللى =45 ١",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_48.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_63.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "74010   =45 ٧ ٧ BY سآقآ",
-    "cleaned_text": "74010 =45 ٧ ٧ BY سآقآ",
+    "raw_text": "",
+    "cleaned_text": "",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "74010 =45 ٧ ٧ BY سآقآ",
+          "text": "",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_49.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7010  تى =45 ١ ٧ MOSALL",
-    "cleaned_text": "7010 تى =45 ١ ٧ MOSALL",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7010 تى =45 ١ ٧ MOSALL",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_50.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "74010  لملي 44= ٧ THOSBBOUAIION",
-    "cleaned_text": "74010 لملي 44= ٧ THOSBBOUAIION",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "74010 لملي 44= ٧ THOSBBOUAIION",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_51.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "74010  للن =4 ٧ NOPONY Do",
-    "cleaned_text": "74010 للن =4 ٧ NOPONY Do",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "74010 للن =4 ٧ NOPONY Do",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_52.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "7٥010  لل =43 ز شغقلئه",
-    "cleaned_text": "7٥010 لل =43 ز شغقلئه",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "7٥010 لل =43 ز شغقلئه",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_53.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "R٥0/0 لل =45 ١ 7 ANDU٥DTHEM",
-    "cleaned_text": "R٥0/0 لل =45 ١ 7 ANDU٥DTHEM",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "R٥0/0 لل =45 ١ 7 ANDU٥DTHEM",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_54.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "3= 2+٠ ٦_ 70,2_ 7٠ ^ 50 { 1 7% 7 5٠ 700 200 00 700 500 (٥0 770 31 ?٥050>|32 0 ٥1>ك + 5, '3،7*= (x0",
-    "cleaned_text": "3= 2+٠ ٦_ 70,2_ 7٠  50 { 1 7% 7 5٠ 700 200 00 700 500 (٥0 770 31 ?٥050>|32 0 ٥1>ك + 5, '3،7*= (x0",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "3= 2+٠ ٦_ 70,2_ 7٠  50 { 1 7% 7 5٠ 700 200 00 700 500 (٥0 770 31 ?٥050>|32 0 ٥1>ك + 5, '3،7*= (x0",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_55.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_64.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "و 10= (5: ^ 11 ٧ /0 0 70_ V٥SO 5, 3~7<* ^x0",
-    "cleaned_text": "و 10= (5:  11 ٧ /0 0 70_ V٥SO 5, 37<* x0",
+    "raw_text": "",
+    "cleaned_text": "",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "و 10= (5:  11 ٧ /0 0 70_ V٥SO 5, 37<* x0",
+          "text": "",
           "bbox": null
         }
       ]
     }
   },
   {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_56.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "١0 ٦ل7 43 ا Vغ٥D٥OU",
-    "cleaned_text": "١0 ٦ل7 43 ا Vغ٥D٥OU",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "١0 ٦ل7 43 ا Vغ٥D٥OU",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_57.png",
-    "detected_regions": [],
-    "language": "ar",
-    "raw_text": "تم  ٤٩5 5 IULOGMESOMB",
-    "cleaned_text": "تم ٤٩5 5 IULOGMESOMB",
-    "grouped_wrapped_texts": {
-      "full_image": [
-        {
-          "text": "تم ٤٩5 5 IULOGMESOMB",
-          "bbox": null
-        }
-      ]
-    }
-  },
-  {
-    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpm6lgnrx7\\frame_58.png",
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_65.png",
     "detected_regions": [],
     "language": "en",
-    "raw_text": "4nnaآ ء ٧ ٧ER 5 5 @9US 55",
-    "cleaned_text": "4nnaآ ء ٧ ٧ER 5 5 @9US 55",
+    "raw_text": "",
+    "cleaned_text": "",
     "grouped_wrapped_texts": {
       "full_image": [
         {
-          "text": "4nnaآ ء ٧ ٧ER 5 5 @9US 55",
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_66.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_76.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_77.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_78.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_79.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "GRIUD HARDER! in wour face like d bad gum meme",
+    "cleaned_text": "GRIUD HARDER! in wour face like d bad gum meme",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "GRIUD HARDER! in wour face like d bad gum meme",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_80.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "GRIND HARDER! in vour fcce like d bad gum meme",
+    "cleaned_text": "GRIND HARDER! in vour fcce like d bad gum meme",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "GRIND HARDER! in vour fcce like d bad gum meme",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_81.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "GRIND HARDER! in vour fcce like d bad gum meme",
+    "cleaned_text": "GRIND HARDER! in vour fcce like d bad gum meme",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "GRIND HARDER! in vour fcce like d bad gum meme",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_83.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_84.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "7 9",
+    "cleaned_text": "7 9",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "7 9",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_85.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "the kind that Flips the entire game 7",
+    "cleaned_text": "the kind that Flips the entire game 7",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "the kind that Flips the entire game 7",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_92.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_93.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_94.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_95.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_96.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_125.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "FLAi",
+    "cleaned_text": "FLAi",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "FLAi",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_126.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "PLAN ٦٨٦٨٨٨٨",
+    "cleaned_text": "PLAN ٦٨٦٨٨٨٨",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "PLAN ٦٨٦٨٨٨٨",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_127.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "PLAN You re cementing grouth ٧ ٦٦٨٥",
+    "cleaned_text": "PLAN You re cementing grouth ٧ ٦٦٨٥",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "PLAN You re cementing grouth ٧ ٦٦٨٥",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_128.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "PLAN You re cementing grouth Redl compounding tdke-over-the-uorld grouth. T،٦،",
+    "cleaned_text": "PLAN You re cementing grouth Redl compounding tdke-over-the-uorld grouth. T،٦،",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "PLAN You re cementing grouth Redl compounding tdke-over-the-uorld grouth. T،٦،",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_129.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "PLAN You re cementing grouth Redl compounding tdke-over-the-uorld grouth. T،٦،",
+    "cleaned_text": "PLAN You re cementing grouth Redl compounding tdke-over-the-uorld grouth. T،٦،",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "PLAN You re cementing grouth Redl compounding tdke-over-the-uorld grouth. T،٦،",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_135.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_136.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_137.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_138.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_141.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_142.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_143.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_144.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_145.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_159.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_160.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_161.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_173.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "0 no٦ 4 1l-pcge mcnifesto dbout hou vou'll \"get qour life together",
+    "cleaned_text": "0 no٦ 4 1l-pcge mcnifesto dbout hou vou'll \"get qour life together",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "0 no٦ 4 1l-pcge mcnifesto dbout hou vou'll \"get qour life together",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_174.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "0 no٦ 4 1l-pcge mcnifesto dbout hou vou'll \"get qour life together",
+    "cleaned_text": "0 no٦ 4 1l-pcge mcnifesto dbout hou vou'll \"get qour life together",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "0 no٦ 4 1l-pcge mcnifesto dbout hou vou'll \"get qour life together",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_175.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "0 no٦ 4 1l-pcge mcnifesto dbout hou vou'll \"get qour life together",
+    "cleaned_text": "0 no٦ 4 1l-pcge mcnifesto dbout hou vou'll \"get qour life together",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "0 no٦ 4 1l-pcge mcnifesto dbout hou vou'll \"get qour life together",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_176.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_178.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "آ5",
+    "cleaned_text": "آ5",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "آ5",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_179.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Hit one domino toddy Gnd tomorrou's dlreddu eusier آ5",
+    "cleaned_text": "Hit one domino toddy Gnd tomorrou's dlreddu eusier آ5",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Hit one domino toddy Gnd tomorrou's dlreddu eusier آ5",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_180.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Hit one domino toddy Gnd tomorrou's dlreddu eusier آ5",
+    "cleaned_text": "Hit one domino toddy Gnd tomorrou's dlreddu eusier آ5",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Hit one domino toddy Gnd tomorrou's dlreddu eusier آ5",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_184.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_185.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_188.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "6R0. TRUST ME!",
+    "cleaned_text": "6R0. TRUST ME!",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "6R0. TRUST ME!",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_189.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "6R0. TRUST ME!",
+    "cleaned_text": "6R0. TRUST ME!",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "6R0. TRUST ME!",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_190.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "6R0. TRUST ME!",
+    "cleaned_text": "6R0. TRUST ME!",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "6R0. TRUST ME!",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_191.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "6R0. TRUST ME!",
+    "cleaned_text": "6R0. TRUST ME!",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "6R0. TRUST ME!",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_195.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Sacred Hour ٥٥ doom scrolling",
+    "cleaned_text": "Sacred Hour ٥٥ doom scrolling",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Sacred Hour ٥٥ doom scrolling",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_196.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Sacred Hour ٥٥ doom scrolling No texts",
+    "cleaned_text": "Sacred Hour ٥٥ doom scrolling No texts",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Sacred Hour ٥٥ doom scrolling No texts",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_197.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Sacred Hour ٥٥ doom scrolling No texts No emcils.",
+    "cleaned_text": "Sacred Hour ٥٥ doom scrolling No texts No emcils.",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Sacred Hour ٥٥ doom scrolling No texts No emcils.",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_198.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Sacred Hour M٥ doom scrolling No texts No emcils.",
+    "cleaned_text": "Sacred Hour M٥ doom scrolling No texts No emcils.",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Sacred Hour M٥ doom scrolling No texts No emcils.",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_209.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "INTENTION",
+    "cleaned_text": "INTENTION",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "INTENTION",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_210.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "INTENTION",
+    "cleaned_text": "INTENTION",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "INTENTION",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_211.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "INTENTION",
+    "cleaned_text": "INTENTION",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "INTENTION",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_212.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "INTENTION",
+    "cleaned_text": "INTENTION",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "INTENTION",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_213.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "INTENTION",
+    "cleaned_text": "INTENTION",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "INTENTION",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_214.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "INTENTION",
+    "cleaned_text": "INTENTION",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "INTENTION",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_221.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Vou re voting For خhe version of gou thats focused",
+    "cleaned_text": "Vou re voting For خhe version of gou thats focused",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Vou re voting For خhe version of gou thats focused",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_222.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Vou re voting For خhe version of gou thats focused Trusted by vourself",
+    "cleaned_text": "Vou re voting For خhe version of gou thats focused Trusted by vourself",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Vou re voting For خhe version of gou thats focused Trusted by vourself",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_225.png",
+    "detected_regions": [],
+    "language": "ar",
+    "raw_text": "،٨٧٥٧ ٢٤٨",
+    "cleaned_text": "،٨٧٥٧ ٢٤٨",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "،٨٧٥٧ ٢٤٨",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_226.png",
+    "detected_regions": [],
+    "language": "ar",
+    "raw_text": "،٨٨٧٥٧ ٠٨",
+    "cleaned_text": "،٨٨٧٥٧ ٠٨",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "،٨٨٧٥٧ ٠٨",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_227.png",
+    "detected_regions": [],
+    "language": "ar",
+    "raw_text": "،٨٨٧٥٧ ٠٨",
+    "cleaned_text": "،٨٨٧٥٧ ٠٨",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "،٨٨٧٥٧ ٠٨",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_228.png",
+    "detected_regions": [],
+    "language": "ar",
+    "raw_text": "،٨٨٧٥٧ ٠٨",
+    "cleaned_text": "،٨٨٧٥٧ ٠٨",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "،٨٨٧٥٧ ٠٨",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_229.png",
+    "detected_regions": [],
+    "language": "ar",
+    "raw_text": "،٨٨٧٥٧ ٠٨",
+    "cleaned_text": "،٨٨٧٥٧ ٠٨",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "،٨٨٧٥٧ ٠٨",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_230.png",
+    "detected_regions": [],
+    "language": "ar",
+    "raw_text": "،٨٨٧ ٢٠٦",
+    "cleaned_text": "،٨٨٧ ٢٠٦",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "،٨٨٧ ٢٠٦",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_241.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "15 DAYS  2 uninterrupted self-mastery",
+    "cleaned_text": "15 DAYS 2 uninterrupted self-mastery",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "15 DAYS 2 uninterrupted self-mastery",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_242.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "No+ crammed into ueekends",
+    "cleaned_text": "No+ crammed into ueekends",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "No+ crammed into ueekends",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_243.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "No+ crammed into ueekends",
+    "cleaned_text": "No+ crammed into ueekends",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "No+ crammed into ueekends",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_244.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Not squeezedinto half-baked some dcus.",
+    "cleaned_text": "Not squeezedinto half-baked some dcus.",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Not squeezedinto half-baked some dcus.",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_245.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Not squeezedinto half-baked some dcus.",
+    "cleaned_text": "Not squeezedinto half-baked some dcus.",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Not squeezedinto half-baked some dcus.",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_246.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Dediccted Sharp Stacked",
+    "cleaned_text": "Dediccted Sharp Stacked",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Dediccted Sharp Stacked",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_247.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Dediccted Sharp Stacked",
+    "cleaned_text": "Dediccted Sharp Stacked",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Dediccted Sharp Stacked",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_253.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_254.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_255.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_256.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_266.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_267.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_268.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_271.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_272.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_273.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_274.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_304.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_305.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "",
+    "cleaned_text": "",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_306.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "LiK٤",
+    "cleaned_text": "LiK٤",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "LiK٤",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_307.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "LiK٤",
+    "cleaned_text": "LiK٤",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "LiK٤",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_308.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "LiK٤",
+    "cleaned_text": "LiK٤",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "LiK٤",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_309.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "LزK٤",
+    "cleaned_text": "LزK٤",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "LزK٤",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_311.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Drop d 5 in the comments COMMENT BELOW",
+    "cleaned_text": "Drop d 5 in the comments COMMENT BELOW",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Drop d 5 in the comments COMMENT BELOW",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_312.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Drop d 5 in the comments COMMENT BELOW",
+    "cleaned_text": "Drop d 5 in the comments COMMENT BELOW",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Drop d 5 in the comments COMMENT BELOW",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_316.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "SNOOZE WAKE UP",
+    "cleaned_text": "SNOOZE WAKE UP",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "SNOOZE WAKE UP",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_317.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Don + hit snooze on this one SNOOZE WAKE UP",
+    "cleaned_text": "Don + hit snooze on this one SNOOZE WAKE UP",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Don + hit snooze on this one SNOOZE WAKE UP",
+          "bbox": null
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "C:\\Users\\mouss\\AppData\\Local\\Temp\\tmpw8fac0hn\\frame_318.png",
+    "detected_regions": [],
+    "language": "en",
+    "raw_text": "Don + hit snooze on this one SNOOZE WAKE UP",
+    "cleaned_text": "Don + hit snooze on this one SNOOZE WAKE UP",
+    "grouped_wrapped_texts": {
+      "full_image": [
+        {
+          "text": "Don + hit snooze on this one SNOOZE WAKE UP",
           "bbox": null
         }
       ]
