@@ -33,7 +33,12 @@ Return strictly JSON like:
     log_func("[INFO] Sending prompt to OpenAI...")
     response = client.chat.completions.create(
         model="gpt-4o",
-        messages=[{"role": "user", "content": prompt + f'\n"""{transcript}"""'}],
+        messages=[
+            {
+                "role": "user",
+                "content": f'{prompt}\n"""{transcript}"""'
+            }
+        ],
         temperature=0.7
     )
 
