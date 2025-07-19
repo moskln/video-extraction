@@ -1,6 +1,10 @@
 from flask import Flask, render_template, request, jsonify
 from processor import combined_process
+from app.logger import setup_logger
 
+logger = setup_logger()
+
+logger.info("Video processing started.")
 app = Flask(__name__)
 
 @app.route("/")
