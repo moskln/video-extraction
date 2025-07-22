@@ -1,13 +1,13 @@
-# structured_extractor/detector.py
+# ai_modules/detector.py
 
 import os
 import json
 import cv2
 from collections import defaultdict
 
-from structured_extractor.ocr import perform_easyocr
-from structured_extractor.postprocess import clean_ocr_text, wrap_cleaned_text
-from structured_extractor.layout_detector import detect_layout_regions, crop_regions_from_image
+from ai_modules.ocr import perform_easyocr
+from ai_modules.postprocess import clean_ocr_text, wrap_cleaned_text
+from ai_modules.layout_detector import detect_layout_regions, crop_regions_from_image
 
 
 def visualize_regions(image_path, regions, output_path=None):

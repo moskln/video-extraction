@@ -1,14 +1,16 @@
 # structured_extractor/layout_detector.py
 
-from ultralytics import YOLO
-import cv2
 import os
+import time
+import cv2
+from ultralytics import YOLO
 
-# Load pre-trained YOLOv8 model
-# If you have a custom model trained for layouts, replace with your .pt path
-yolo_model = YOLO("yolov8x.pt")
+# Load YOLO model and move to GPU if available
+model_path = os.path.join(os.path.dirname(__file__), '..', 'yolov8x.pt')
+yolo_model = YOLO(model_path)
+if cv2.cuda.getCudaEnabledDeviceCount() > 0:
+    yolo_model.to("cuda")
 
-# Example class mapping (update if using a custom-trained model)
 DEFAULT_CLASSES = {
     0: "object",
     1: "chart",
@@ -18,31 +20,49 @@ DEFAULT_CLASSES = {
     5: "diagram"
 }
 
+CONFIDENCE_THRESHOLD = 0.4  # You can increase to e.g. 0.5 to be stricter
 
-def detect_layout_regions(image_path, class_filter=None, conf_threshold=0.4):
+
+def detect_layout_regions(image_path, class_filter=None, conf_threshold=CONFIDENCE_THRESHOLD):
     if not os.path.exists(image_path):
-        return []
+        print(f"[ERROR] Image not found: {image_path}")
+        return [], [], []
 
+    start_time = time.time()
     results = yolo_model(image_path, conf=conf_threshold)
-    detected_regions = []
+    elapsed = time.time() - start_time
+
+    detected_regions, texts, boxes = [], [], []
+    skipped = 0
 
     for box in results[0].boxes:
         cls_id = int(box.cls.item())
         conf = float(box.conf.item())
-        label = DEFAULT_CLASSES.get(cls_id, f"class_{cls_id}")
 
+        if conf < conf_threshold:
+            skipped += 1
+            continue
+
+        label = DEFAULT_CLASSES.get(cls_id, f"class_{cls_id}")
         if class_filter and label not in class_filter:
             continue
 
         x1, y1, x2, y2 = [int(coord) for coord in box.xyxy[0]]
+        bbox = [x1, y1, x2, y2]
 
         detected_regions.append({
             "label": label,
             "confidence": conf,
-            "bbox": [x1, y1, x2, y2]
+            "bbox": bbox
         })
 
-    return detected_regions
+        boxes.append(bbox)
+        texts.append(label)
+
+    print(f"[INFO] Processed {image_path} in {elapsed:.2f}s with {len(detected_regions)} detections, skipped {skipped} low-conf boxes.")
+
+    return detected_regions, texts, boxes
+
 
 def crop_regions_from_image(image_path, regions, output_dir="temp_crops"):
     if not os.path.exists(output_dir):

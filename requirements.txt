@@ -1,0 +1,15 @@
+Flask
+python-dotenv
+openai
+opencv-python
+pytesseract
+Pillow
+fpdf
+numpy
+whisper
+yt-dlp
+celery
+redis
+pytest
+python-decouple
+

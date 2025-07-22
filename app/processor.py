@@ -20,6 +20,7 @@ from app.generator import generate_course_content
 from ai_modules.detector import detect_structured_data
 from ai_modules.explainer import explain_structured_data
 from ai_modules.visual_report import generate_visual_report
+from skimage.metrics import structural_similarity as ssim 
 
 logger = setup_logger()
 
@@ -47,7 +48,7 @@ def is_image_blank(image_path):
     return img is None or np.mean(img) > 240
 
 
-# 🎧 AUDIO TRANSCRIPTION
+# 🎷 AUDIO TRANSCRIPTION
 def get_audio_duration(filename):
     try:
         result = subprocess.run(
@@ -72,7 +73,7 @@ def transcribe_youtube_video(url, language_code=None, tmpdir=None):
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         ydl.download([url])
-    
+
     audio_path = os.path.join(tmpdir, "audio.mp3")
     duration_minutes = get_audio_duration(audio_path) / 60
 
@@ -82,7 +83,7 @@ def transcribe_youtube_video(url, language_code=None, tmpdir=None):
     return {"transcript": result["text"], "duration_minutes": duration_minutes}
 
 
-# 🖼️ FRAME EXTRACTION
+# 🗄️ FRAME EXTRACTION
 def extract_frames_from_video(video_path, temp_dir, frame_interval_sec):
     cap = cv2.VideoCapture(video_path)
     fps = cap.get(cv2.CAP_PROP_FPS) or 30
@@ -90,19 +91,34 @@ def extract_frames_from_video(video_path, temp_dir, frame_interval_sec):
 
     images = []
     count = saved_count = 0
+    last_frame_gray = None
 
     while True:
         ret, frame = cap.read()
         if not ret:
             break
+
         if count % frames_to_skip == 0:
+            gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+            if last_frame_gray is not None:
+                sim = ssim(gray, last_frame_gray)
+                if sim > 0.95:
+                    logger.info(f" Skipping frame {count} (SSIM {sim:.2f})")
+                    count += 1
+                    continue
+
+            last_frame_gray = gray
             img_path = os.path.join(temp_dir, f"frame_{saved_count}.png")
             cv2.imwrite(img_path, frame)
+
             if not is_image_blank(img_path):
                 images.append(img_path)
             else:
                 os.remove(img_path)
+
             saved_count += 1
+
         count += 1
 
     cap.release()
@@ -150,7 +166,7 @@ def save_ocr_text_to_pdf(ocr_texts, output_path="static/ocr_text.pdf"):
 def combined_process(video_url, language="en"):
     with tempfile.TemporaryDirectory() as tmpdir:
         logger.info(f"Processing video: {video_url}")
-        
+
         language_code = "ar" if language == "ar" else None
         transcript_data = transcribe_youtube_video(video_url, language_code, tmpdir)
         transcript = transcript_data["transcript"]
@@ -168,7 +184,6 @@ def combined_process(video_url, language="en"):
         frame_interval = max(1, min(10, duration / 20))
         images = extract_frames_from_video(video_path, tmpdir, frame_interval)
 
-        # Run OCR on each image in parallel
         ocr_results = [None] * len(images)
         ocr_lang = "ara" if language == "ar" else "eng"
         threads = [
@@ -178,20 +193,28 @@ def combined_process(video_url, language="en"):
         [t.start() for t in threads]
         [t.join() for t in threads]
 
-        # Detect layout and explain
         structured_outputs = []
         explanations = []
         tags_per_frame = []
 
         for img_path in images:
-            structured = detect_structured_data(img_path)
-            structured_outputs.append(structured)
-            explanations.append(explain_structured_data(structured))
+            try:
+                structured = detect_structured_data(img_path)
+                structured_outputs.append(structured)
 
-            tags = list(structured.get("grouped_wrapped_texts", {}).keys())
+                if not isinstance(structured, dict):
+                     raise TypeError(f"Expected dict, got {type(structured)}")
+ 
+                explanation = explain_structured_data(structured)
+                tags = list(structured.get("grouped_wrapped_texts", {}).keys())
+            except Exception as e:
+                logger.error(f"Error processing frame {img_path}: {e}")
+                explanation = "No explanation available."
+                tags = []
+
+            explanations.append(explanation)
             tags_per_frame.append({"frame": os.path.basename(img_path), "tags": tags})
 
-        # Save reports
         os.makedirs("static", exist_ok=True)
         with open("static/frame_explanations.txt", "w", encoding="utf-8") as f:
             f.write("\n\n---\n\n".join(explanations))
@@ -203,10 +226,16 @@ def combined_process(video_url, language="en"):
         ocr_texts = [txt for txt in ocr_results if txt and txt.strip()]
         save_ocr_text_to_pdf(ocr_texts, output_path="static/ocr_text.pdf")
 
-        combined_text = transcript + "\n\n" + "\n\n".join(ocr_texts)
-        course_data = generate_course_content(combined_text, language, video_duration_minutes=duration)
+        combined_text = f"{transcript.strip()}\n\n" + "\n\n".join(txt.strip() for txt in ocr_texts if isinstance(txt, str))
 
-        # Add extras
+        try:
+            course_data = generate_course_content(combined_text, language, video_duration_minutes=duration)
+            if not isinstance(course_data, dict):
+                raise TypeError("generate_course_content() must return a dictionary")
+        except Exception as e:
+            logger.error(f"generate_course_content failed: {e}")
+            raise
+
         course_data.update({
             "extracted_images_base64": [image_to_base64(img) for img in images],
             "frame_explanations": explanations,
